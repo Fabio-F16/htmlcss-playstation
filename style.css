@@ -10,23 +10,54 @@ body{
 
 
 
+/* larghezze */
+
 .width-10{
     width: 10%;
 }
 
-.width-100{
-    width: 100%;
+.width-20{
+    width: 20%;
 }
+
+.width-40{
+    width: 40%;
+}
+
 
 .width-50{
     width: 50%;
 }
 
-.ff-border-radius{
-    border-radius: 15px;
+.width-80{
+    width: 80%;
+}
+.width-100{
+    width: 100%;
 }
 
 
+
+/* decori */
+
+.ff-border-radius{
+    border-radius: 20px;
+}
+
+
+
+/* colori */
+
+.ff-bg-grey{
+    background-color: #bebcbb;
+}
+
+.ff-bg-light-grey{
+    background-color: #d9dadc;
+}
+
+
+/* content */
 
 .jumbotron{
     background-image: url("img/jumbo-bg.png");
@@ -38,6 +69,10 @@ body{
     font-size: 1.3rem;
 }
 
+#accessories .card-title{
+    display: none;
+}
+
 
 #giochi .bg-image{
     color: white;
@@ -45,4 +80,51 @@ body{
     background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     background-position: center; 
+}
+
+#giochi p{
+    margin-top: 10px;
+}
+
+.playstation-plus .img-none{
+    display: none;
+}
+
+
+
+
+
+
+
+/* media queeeeeeeeeeeeeeeeeeeeries */
+
+
+/* medium size */
+@media  all and (min-width: 767px) {
+
+    .top-header .col img{
+        width: 10%;
+    }
+
+    #accessories .card-title{
+        display: inline-block;
+    }
+
+   
+
+   
+}
+
+
+
+/* large size */
+@media  all and (min-width: 992px){
+
+    .playstation-plus .img-none{
+        display: inline-block;
+    }
+
+
+
+
 }
