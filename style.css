@@ -66,6 +66,9 @@ body{
     background-color: #161c3b;
 }
 
+.ff-bg-blue{
+    background-color: #06439c;
+}
 
 /* content */
 
@@ -123,6 +126,10 @@ body{
 
     #accessories .card-title{
         display: inline-block;
+    }
+
+    .bottom-header img{
+        width: 100%;
     }
 
    
