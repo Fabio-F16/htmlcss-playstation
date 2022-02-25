@@ -12,6 +12,11 @@ body{
 
 /* larghezze */
 
+.width-5{
+    width: 5%;
+}
+
+
 .width-10{
     width: 10%;
 }
@@ -91,8 +96,13 @@ body{
     margin-top: 10px;
 }
 
-.playstation-plus .img-none{
+.playstation-plus .img-none, .playstation-now .img-none{
     display: none;
+}
+
+.bottom-footer p{
+    margin-left: 10px;
+    margin-bottom: 0px;
 }
 
 
@@ -125,7 +135,7 @@ body{
 /* large size */
 @media  all and (min-width: 992px){
 
-    .playstation-plus .img-none{
+    .playstation-plus .img-none, .playstation-now .img-none{
         display: inline-block;
     }
 
