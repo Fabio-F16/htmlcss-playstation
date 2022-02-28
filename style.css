@@ -6,8 +6,8 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
-
 
 
 /* larghezze */
@@ -37,6 +37,7 @@ body{
 .width-80{
     width: 80%;
 }
+
 .width-100{
     width: 100%;
 }
@@ -71,6 +72,10 @@ body{
 }
 
 /* content */
+
+.dropdown-item {
+    display: unset;
+  }
 
 .jumbotron{
     background-image: url("img/jumbo-bg.png");
