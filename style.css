@@ -141,9 +141,15 @@ button:hover{
 }
 
 #accessories img:hover{
-    border-bottom: 3px solid #0b5ed7;
+    
     opacity: 100%;
 }
+
+#accessories .col-4:hover{
+    border-bottom: 3px solid #0b5ed7;
+    
+}
+
 
 
 /* media queeeeeeeeeeeeeeeeeeeeries */
